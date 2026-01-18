@@ -1,24 +1,4 @@
-const features = [
-  {
-    title: "Experienced & Caring Teachers",
-    description:
-      "Dedicated educators who nurture every child’s academic and personal growth.",
-  },
-  {
-    title: "Value-Based Education",
-    description: "Strong focus on discipline, respect, and moral values.",
-  },
-  {
-    title: "Safe & Supportive Environment",
-    description:
-      "A secure campus where children feel safe, cared for, and confident.",
-  },
-  {
-    title: "Nursery to High School",
-    description:
-      "Complete schooling journey under one roof for consistent learning.",
-  },
-];
+import homeContent from "@/content/home";
 
 export default function WhyBethel() {
   return (
@@ -29,7 +9,7 @@ export default function WhyBethel() {
         </h2>
 
         <div className="mt-12 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-          {features.map((item, index) => (
+          {homeContent.whyBethel.map((item, index) => (
             <div
               key={index}
               className="bg-white rounded-lg shadow-sm p-6 text-center hover:shadow-md transition"

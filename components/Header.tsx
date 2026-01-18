@@ -14,9 +14,9 @@ export default function Header() {
           <img
             src="/images/bethel-school-logo.jpg"
             alt="Bethel High School"
-            className="h-12 w-auto"
+            className="h-9 sm:h-12 w-auto"
           />
-          <span className="text-2xl font-bold text-blue-900">
+          <span className="text-lg sm:text-2xl font-bold text-blue-900">
             Bethel High School
           </span>
         </div>
@@ -34,7 +34,7 @@ export default function Header() {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden text-blue-900"
+          className="md:hidden text-blue-900 p-2"
           onClick={() => setOpen(!open)}
         >
           <svg
@@ -56,7 +56,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-white border-t">
+        <div className="md:hidden bg-white border-t shadow-md">
           <nav className="flex flex-col px-4 py-4 gap-4 text-gray-700 font-medium">
             <Link href="/" onClick={() => setOpen(false)}>
               Home
