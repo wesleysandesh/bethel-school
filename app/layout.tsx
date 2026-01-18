@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/Header";
-//import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
+import "./globals.css";
 
 export const metadata = {
   title: "Bethel High School | Bapatla",
@@ -15,10 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col">
+      <body>
         <Header />
-        <main className="flex-grow">{children}</main>
-        {/* <Footer /> */}
+        {children}
+        <Footer />
       </body>
     </html>
   );
