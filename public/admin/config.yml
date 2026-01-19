@@ -9,9 +9,9 @@ collections:
   - name: "home"
     label: "Home Page"
     files:
-      - file: "content/home.ts"
+      - name: "home"
         label: "Home Content"
-        name: "home"
+        file: "content/home.json"
         fields:
           - { label: "Hero Title", name: "title", widget: "string" }
           - { label: "Hero Subtitle", name: "subtitle", widget: "string" }
@@ -23,6 +23,7 @@ collections:
             name: "stats"
             widget: "list"
             fields:
+              - { label: "ID", name: "id", widget: "string" }
               - { label: "Value", name: "value", widget: "string" }
               - { label: "Label", name: "label", widget: "string" }
               - { label: "Theme", name: "theme", widget: "string" }

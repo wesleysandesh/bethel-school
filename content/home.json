@@ -1,0 +1,53 @@
+{
+  "title": "Bethel High School",
+  "subtitle": "Nurturing Young Minds with Care, Discipline & Values",
+  "location": "Nursery to High School | Bapatla, Andhra Pradesh",
+  "cta": "Admissions Open",
+  "image": "/images/hero-school.png",
+
+  "stats": [
+    {
+      "id": "students",
+      "value": "500+",
+      "label": "Students",
+      "theme": "stat-blue"
+    },
+    {
+      "id": "teachers",
+      "value": "30+",
+      "label": "Qualified Teachers",
+      "theme": "stat-yellow"
+    },
+    {
+      "id": "classes",
+      "value": "Nursery – High School",
+      "label": "Classes",
+      "theme": "stat-lightblue"
+    },
+    {
+      "id": "established",
+      "value": "Established 2016",
+      "label": "Years of Excellence",
+      "theme": "stat-cream"
+    }
+  ],
+
+  "whyBethel": [
+    {
+      "title": "Experienced Faculty",
+      "description": "Well-qualified and dedicated teachers focused on holistic education."
+    },
+    {
+      "title": "Value-Based Education",
+      "description": "Strong focus on discipline, respect, and moral values."
+    },
+    {
+      "title": "Strong Academic Foundation",
+      "description": "Balanced focus on academics, values, and extracurricular activities."
+    },
+    {
+      "title": "Safe & Supportive Environment",
+      "description": "A secure campus where children feel safe, cared for, and confident."
+    }
+  ]
+}
