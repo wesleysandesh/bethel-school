@@ -4,7 +4,6 @@
   "location": "Nursery to High School | Bapatla, Andhra Pradesh",
   "cta": "Admissions Open",
   "image": "/images/hero-school.png",
-
   "stats": [
     {
       "id": "students",
@@ -27,11 +26,10 @@
     {
       "id": "established",
       "value": "Established 2016",
-      "label": "Years of Excellence",
+      "label": "10 Years of Excellence",
       "theme": "stat-cream"
     }
   ],
-
   "whyBethel": [
     {
       "title": "Experienced Faculty",
