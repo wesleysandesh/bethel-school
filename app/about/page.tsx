@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <main className="max-w-7xl mx-auto px-6 py-12">
+    <main className="min-h-screen bg-white py-16 px-6">
       <h1 className="text-3xl font-bold text-blue-900 mb-4">
         About Bethel High School
       </h1>
