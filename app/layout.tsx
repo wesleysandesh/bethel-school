@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MobileContactButtons from "@/components/MobileContactButtons";
 import Script from "next/script";
 import "./globals.css";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <MobileContactButtons />
         <Footer />
         {/* Netlify Identity Widget */}
         <Script

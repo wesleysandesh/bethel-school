@@ -1,0 +1,46 @@
+{
+  "title": "Admissions",
+  "intro": "Admissions are open for Nursery to High School. We welcome parents to join our nurturing and value-based learning environment.",
+
+  "process": [
+    {
+      "step": "Step 1",
+      "title": "Enquiry",
+      "description": "Parents can contact the school or visit the campus to enquire about admissions."
+    },
+    {
+      "step": "Step 2",
+      "title": "Application",
+      "description": "Fill out the admission application form and submit required documents."
+    },
+    {
+      "step": "Step 3",
+      "title": "Interaction",
+      "description": "Student interaction or assessment as applicable for the grade."
+    },
+    {
+      "step": "Step 4",
+      "title": "Confirmation",
+      "description": "Admission confirmation upon successful completion of the process."
+    }
+  ],
+
+  "eligibility": [
+    "Nursery to High School admissions available",
+    "Age criteria as per government guidelines",
+    "Transfer Certificate required for higher grades"
+  ],
+
+  "documents": [
+    "Birth Certificate",
+    "Previous School Records",
+    "Transfer Certificate (if applicable)",
+    "Passport-size photographs"
+  ],
+
+  "cta": {
+    "title": "Admissions Open",
+    "description": "Contact us today to begin your child’s journey at Bethel High School.",
+    "buttonText": "Enquire Now"
+  }
+}

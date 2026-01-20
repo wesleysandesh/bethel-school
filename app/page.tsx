@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import WhyBethel from "@/components/WhyBethel";
+import Leadership from "@/components/Leadership";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Hero />
       <Stats />
       <WhyBethel />
+      <Leadership />
     </>
   );
 }

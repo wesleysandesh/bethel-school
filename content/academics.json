@@ -1,0 +1,37 @@
+{
+  "title": "Academics",
+  "intro": "Our academic program is designed to foster intellectual growth, discipline, and lifelong learning.",
+
+  "levels": [
+    {
+      "name": "Pre-Primary",
+      "description": "Foundational learning through play-based and activity-oriented methods."
+    },
+    {
+      "name": "Primary School",
+      "description": "Strong focus on literacy, numeracy, and curiosity-driven learning."
+    },
+    {
+      "name": "Middle School",
+      "description": "Concept-based learning with emphasis on analytical and critical thinking."
+    },
+    {
+      "name": "High School",
+      "description": "Board-aligned curriculum preparing students for higher education and careers."
+    }
+  ],
+
+  "highlights": [
+    "Qualified and experienced faculty",
+    "Balanced academics and co-curricular activities",
+    "Individual student attention",
+    "Continuous assessment and feedback"
+  ],
+
+  "methodology": [
+    "Interactive classroom teaching",
+    "Project-based learning",
+    "Digital learning aids",
+    "Regular assessments and mentoring"
+  ]
+}

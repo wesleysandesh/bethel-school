@@ -2,7 +2,7 @@
   "title": "Bethel High School",
   "subtitle": "Nurturing Young Minds with Care, Discipline & Values",
   "location": "Nursery to High School | Bapatla, Andhra Pradesh",
-  "cta": "Admissions Open",
+  "cta": "Enquiry Now",
   "image": "/images/hero-school.png",
   "stats": [
     {
@@ -47,5 +47,26 @@
       "title": "Safe & Supportive Environment",
       "description": "A secure campus where children feel safe, cared for, and confident."
     }
-  ]
+  ],
+  "leadership": {
+    "title": "Our Leadership",
+    "subtitle": "Guiding Bethel High School with vision, values, and dedication.",
+    "members": [
+      {
+        "name": "Mr. Drakshavalli Bolimera",
+        "role": "Founder",
+        "image": "/images/uploads/founder.jpg"
+      },
+      {
+        "name": "Mrs. Valli Padma Bolimera",
+        "role": "Chairman",
+        "image": "/images/uploads/chairman.jpg"
+      },
+      {
+        "name": "Smt. Rita",
+        "role": "Principal",
+        "image": "/images/uploads/chairman.jpg"
+      }
+    ]
+  }
 }

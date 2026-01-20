@@ -1,0 +1,33 @@
+{
+  "title": "Activities",
+  "intro": "At Bethel High School, activities play a vital role in nurturing creativity, leadership, teamwork, and confidence among students.",
+
+  "categories": [
+    {
+      "title": "Sports & Games",
+      "description": "Physical education, indoor and outdoor sports to promote fitness and teamwork."
+    },
+    {
+      "title": "Cultural Activities",
+      "description": "Dance, music, drama, and cultural programs that celebrate creativity and tradition."
+    },
+    {
+      "title": "Arts & Crafts",
+      "description": "Drawing, painting, craft work, and creative expression for young minds."
+    },
+    {
+      "title": "Clubs & Competitions",
+      "description": "Debates, quizzes, science exhibitions, and inter-school competitions."
+    }
+  ],
+
+  "highlights": [
+    { "label": "Annual Day Celebrations", "icon": "🎉" },
+    { "label": "Sports Day", "icon": "⚽" },
+    { "label": "Science & Art Exhibitions", "icon": "🔬" },
+    { "label": "Cultural Festivals", "icon": "🎭" },
+    { "label": "Educational Tours", "icon": "🚌" }
+  ],
+
+  "closingNote": "Our activities encourage students to explore their talents, build confidence, and grow into well-rounded individuals."
+}

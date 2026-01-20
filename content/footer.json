@@ -1,0 +1,23 @@
+{
+  "schoolName": "Bethel High School",
+  "tagline": "Nursery to High School",
+  "location": "Bapatla, Andhra Pradesh",
+  "schoolTimings": {
+    "label": "School Timings",
+    "days": "Monday – Saturday",
+    "time": "9:00 AM – 4:00 PM"
+  },
+  "quickLinks": [
+    { "label": "About Us", "href": "/about" },
+    { "label": "Academics", "href": "/academics" },
+    { "label": "Admissions", "href": "/admissions" },
+    { "label": "Activities", "href": "/activities" },
+    { "label": "Gallery", "href": "/gallery" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "contact": {
+    "address": "Bapatla, Andhra Pradesh",
+    "phone": "+91 8096141515",
+    "email": "padmagrace@gmail.com"
+  }
+}

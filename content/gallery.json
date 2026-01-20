@@ -1,0 +1,40 @@
+{
+  "title": "Gallery",
+  "intro": "Moments that reflect the vibrant life at Bethel High School.",
+  "sections": [
+    {
+      "title": "General Campus",
+      "items": [
+        {
+          "title": "School Campus",
+          "image": "/images/gallery/school-campus.png"
+        },
+        {
+          "title": "Classroom Activities",
+          "image": "/images/gallery/classroom-1.jpeg"
+        },
+        {
+          "title": "Lab",
+          "image": "/images/gallery/computer_lab.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Events & Celebrations",
+      "items": [
+        {
+          "title": "Sports Day",
+          "image": "/images/gallery/sports-day.jpg"
+        },
+        {
+          "title": "Annual Day",
+          "image": "/images/gallery/annual-day.jpg"
+        },
+        {
+          "title": "Independence Day",
+          "image": "/images/gallery/independence-day.jpg"
+        }
+      ]
+    }
+  ]
+}

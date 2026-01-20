@@ -34,3 +34,157 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Leadership Section"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string" }
+              - { label: "Section Subtitle", name: "subtitle", widget: "text" }
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Role", name: "role", widget: "string" }
+                  - {
+                      label: "Photo",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                    }
+
+  - name: "about"
+    label: "About Page"
+    files:
+      - name: "about"
+        label: "About Content"
+        file: "content/about.json"
+        fields:
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Introduction", name: "intro", widget: "text" }
+
+          - label: "Vision"
+            name: "vision"
+            widget: "text"
+
+          - label: "Mission Points"
+            name: "mission"
+            widget: "list"
+            fields:
+              - { label: "Point", name: "point", widget: "string" }
+
+          - label: "Core Values"
+            name: "values"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+
+          - label: "School History / Timeline"
+            name: "history"
+            widget: "list"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  - name: "academics"
+    label: "Academics Page"
+    files:
+      - name: "academics"
+        label: "Academics Content"
+        file: "content/academics.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+
+          - label: "Academic Levels"
+            name: "levels"
+            widget: "list"
+            fields:
+              - { label: "Level Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Curriculum Highlights"
+            name: "highlights"
+            widget: "list"
+            field: { label: "Point", name: "", widget: "string" }
+
+          - label: "Teaching Methodology"
+            name: "methodology"
+            widget: "list"
+            field: { label: "Method", name: "", widget: "string" }
+
+  - name: "admissions"
+    label: "Admissions Page"
+    files:
+      - name: "admissions"
+        label: "Admissions Content"
+        file: "content/admissions.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+
+          - label: "Admission Process"
+            name: "process"
+            widget: "list"
+            fields:
+              - { label: "Step", name: "step", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Eligibility"
+            name: "eligibility"
+            widget: "list"
+            field: { label: "Point", name: "", widget: "string" }
+
+          - label: "Documents"
+            name: "documents"
+            widget: "list"
+            field: { label: "Document", name: "", widget: "string" }
+
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Button Text", name: "buttonText", widget: "string" }
+
+  - name: "activities"
+    label: "Activities Page"
+    files:
+      - name: "activities"
+        label: "Activities Content"
+        file: "content/activities.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Intro", name: "intro", widget: "text" }
+
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Highlights"
+            name: "highlights"
+            widget: "list"
+            field: { label: "Item", name: "", widget: "string" }
+
+          - { label: "Closing Note", name: "closingNote", widget: "text" }
+
+  - name: "contact"
+    label: "Contact Page"
+    files:
+      - name: "contact"
+        label: "Contact Content"
+        file: "content/contact.json"
+        fields:
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Address", name: "address", widget: "text" }
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Office Hours", name: "hours", widget: "string" }
+          - { label: "WhatsApp Number", name: "whatsapp", widget: "string" }
