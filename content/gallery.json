@@ -18,23 +18,6 @@
           "image": "/images/gallery/computer_lab.jpg"
         }
       ]
-    },
-    {
-      "title": "Events & Celebrations",
-      "items": [
-        {
-          "title": "Sports Day",
-          "image": "/images/gallery/sports-day.jpg"
-        },
-        {
-          "title": "Annual Day",
-          "image": "/images/gallery/annual-day.jpg"
-        },
-        {
-          "title": "Independence Day",
-          "image": "/images/gallery/independence-day.jpg"
-        }
-      ]
     }
   ]
 }
