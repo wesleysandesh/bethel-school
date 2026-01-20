@@ -8,6 +8,13 @@ export const metadata = {
   title: "Bethel High School | Bapatla",
   description:
     "Bethel High School – Nursery to High School education in Bapatla, nurturing young minds with care, discipline and values.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
